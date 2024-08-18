@@ -1,11 +1,10 @@
+import "../Css/Navbar.css";
 const Navbar = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary">
-        <div className="container-fluid">
-          <a className="navbar-brand" href="#">
-            Navbar
-          </a>
+      <nav className="navbar fixed-top navbar-expand-lg">
+        <div className="container">
+          <a className="navbar-brand">JioPhotos</a>
           <button
             className="navbar-toggler"
             type="button"
@@ -28,12 +27,12 @@ const Navbar = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link active" href="#">
                   Sign up
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link active" href="#">
                   Sign in
                 </a>
               </li>

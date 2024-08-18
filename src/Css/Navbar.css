@@ -1,0 +1,13 @@
+.navbar-expand-lg{
+     background-color: #FFA62F;
+     height: 75px;
+ }
+
+ .navbar-brand{
+    font-weight: 800;
+    color: white;
+ }
+ .nav-item{
+    font-weight: 800;
+    color: white;
+ }
