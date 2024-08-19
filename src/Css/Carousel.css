@@ -1,0 +1,17 @@
+.section-5-step-icon{
+    color: white;
+    background-color: #D10363;
+    border-radius: 9px;
+    width: 65px;
+    padding: 3px;
+    text-align: center;
+}
+
+.container-custom{
+    padding-left: 80px;
+    /* padding-right: px; */
+}
+
+.d-flex{
+    gap:74px
+}

@@ -15,6 +15,9 @@ p{
     color: black;
 }
 
+.homepage-div{
+    padding-top: 75px;
+}
 .dash-image{
     padding-left: 160px ;
     padding-top: 30px;
@@ -82,8 +85,18 @@ img{
 .section-5-h2{
     color: white;
     text-align: center;
+    padding-bottom: 50px;
 }
 .section-5-right{
     width: 80%;
+}
+.section-5-heading{
+    color: white;
+}
+.section-5-description{
+    color: white;
+}
+.section-6{
+    background-color: #F1F1F1;
 }
 
