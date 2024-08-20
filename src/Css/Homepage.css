@@ -8,13 +8,20 @@ h2{
     font-size: 2.5rem;
     font-weight: 900;
 }
+h6{
+    font-size: 1.1rem;
+}
 
 p{
     max-width: 400px;
-    font-weight: 2px;
+    font-weight: 2rem;
     color: black;
 }
 
+.section-1{
+    color: black;
+
+}
 .homepage-div{
     padding-top: 75px;
 }
@@ -23,7 +30,7 @@ p{
     padding-top: 30px;
 }
 .about{
-    width: 44%;
+    width: 730px;
 }
 
 .section-2{
@@ -34,12 +41,15 @@ p{
     margin: 0px 0px 24px;
 }
 .img1{
+    
     border-radius: 24px;
     max-height: 480px;
     max-width: 384px;
     overflow: hidden;
     position: relative;
 }
+
+.back{background-image: linear-gradient(#0000,#000000e5);}
 
 .container-img{
     display: flex;
@@ -79,8 +89,9 @@ img{
 
 .section-5{
     margin-top: 100px;
-    padding: 80px 0;
+    padding: 80px;
     background-color: #1E201E;
+    margin-bottom: 50;
 }
 .section-5-h2{
     color: white;
@@ -96,7 +107,23 @@ img{
 .section-5-description{
     color: white;
 }
+.section-6-2{
+    text-align: center;
+    margin-bottom: 80px;
+}
 .section-6{
     background-color: #F1F1F1;
+    padding-top: 80px;
+    padding-bottom: 1px;
 }
+.section-7{
+    text-align: center;
+    justify-content: center;
+}
+.section-7-download{
+    padding-top: 20px;
+    margin-bottom: 80px;
+}
+
+
 
