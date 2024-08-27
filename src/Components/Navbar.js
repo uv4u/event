@@ -1,5 +1,6 @@
 import "../Scss/navbar.scss";
 import "../Css/Navbar.css";
+import { Link } from "react-router-dom";
 import PhotoIcon from "@mui/icons-material/Photo";
 const Navbar = () => {
   return (
@@ -40,13 +41,15 @@ const Navbar = () => {
               </li>
 
               <li className="nav-item">
-                <a
-                  className="nav-link active"
-                  href="#"
-                  style={{ color: "white" }}
-                >
-                  Sign in
-                </a>
+                <Link to="/signin">
+                  <a
+                    className="nav-link active"
+                    href="#"
+                    style={{ color: "white" }}
+                  >
+                    Sign in
+                  </a>
+                </Link>
               </li>
             </ul>
           </div>

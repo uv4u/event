@@ -1,0 +1,49 @@
+h1{
+    font-size: 4rem;
+    font-weight: 900;
+    color: black;
+}
+h2{
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+h6{
+    font-size: 1.1rem;
+}
+
+.left-login{
+    background-color: #FEFDED;
+    width: 768px;
+    height: 635px;
+}
+.right-login{
+    margin-top: 50px;
+}
+
+.login-text{
+    width: 447px;
+    margin-left: 111px;
+}
+.login-body{
+    width: 73%;
+}
+.login-image{
+    height: 60%;
+    width: 683px;
+    position: inherit;
+    padding-left: 145px;
+}
+
+.brand{
+    gap:2px;
+    padding: 30px 50px
+
+}
+.right-text{
+    padding: 60px 48px;
+}
+.right-body-text{
+    padding: 12px 0px
+}
+
+
