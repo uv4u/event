@@ -10,14 +10,28 @@ h2{
 h6{
     font-size: 1.1rem;
 }
+h5{
+    font-weight: 700;
+}
+
+.login-page{
+    /* background: linear-gradient(to right, #f7f8f8, #acbb78); */
+    /* background: linear-gradient(to right, #00416a, #e4e5e6); */
+    /* background: linear-gradient(to right, #3e5151, #decba4); */
+    /* background: linear-gradient(to right, #abbaab, #ffffff); */
+    background: linear-gradient(to right, #649173, #dbd5a4);
+
+}
 
 .left-login{
-    background-color: #FEFDED;
+    /* background-color: #E1F0DA; */
+    /* background: linear-gradient(to right, #f7f8f8, #acbb78); */
+
     width: 768px;
     height: 635px;
 }
 .right-login{
-    margin-top: 50px;
+    margin-top: 35px;
 }
 
 .login-text{
@@ -36,7 +50,7 @@ h6{
 
 .brand{
     gap:2px;
-    padding: 30px 50px
+    padding: 20px 50px
 
 }
 .right-text{
@@ -44,6 +58,16 @@ h6{
 }
 .right-body-text{
     padding: 12px 0px
+}
+
+.login-card{
+    padding: 45px 0px;
+}
+.privacy{
+    font-size: 0.8rem;
+    font-weight: 600;
+    width: 80%;
+    margin-top: 10px;
 }
 
 

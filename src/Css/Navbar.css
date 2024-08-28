@@ -1,5 +1,7 @@
 .navbar-expand-lg{
-     background-color: #FFA62F;
+     /* background-color: #FFA62F; */
+     /* background: linear-gradient(to right, #4b6cb7, #182848); */
+     background: linear-gradient(to right, #00c6ff, #0072ff);
      height: 75px;
  }
 

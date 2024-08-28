@@ -5,6 +5,7 @@ import facedetect from "../Assets/facedetect.png";
 import share from "../Assets/share.jpg";
 import rightImage from "../Assets/ai-gallery.d261bc4670c28851d898.png";
 import collage from "../Assets/digital-album.bfcd4b87dd424055b425.png";
+import { Link } from "react-router-dom";
 
 //MUI
 import Button from "@mui/material/Button";
@@ -157,13 +158,15 @@ const Homepage = () => {
               </div>
             </div>
             <div className="section-6-2">
-              <Button
-                variant="outlined"
-                size="large"
-                sx={{ color: "blue", borderRadius: 10 }}
-              >
-                Sign in now
-              </Button>
+              <Link to="/signin">
+                <Button
+                  variant="outlined"
+                  size="large"
+                  sx={{ color: "blue", borderRadius: 10 }}
+                >
+                  Sign in now
+                </Button>
+              </Link>
             </div>
           </div>
         </div>
