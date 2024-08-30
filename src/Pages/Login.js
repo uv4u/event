@@ -6,6 +6,7 @@ import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
+import OtpScreen from "../Components/Authentication";
 
 // import FormControl from "@mui/material/FormControl";
 // import Input from "@mui/material/Input";
@@ -16,6 +17,7 @@ import { useState } from "react";
 
 const Login = () => {
   const [number, setNumber] = useState("");
+  const [focus, setFocus] = useState(false);
   // const format = {
   //   value: "+91",
   //   label: "+91",
@@ -66,7 +68,8 @@ const Login = () => {
             }}
           >
             <Paper elevation={10}>
-              <div className="right-text">
+              <OtpScreen />
+              {/* <div className="right-text">
                 <div className="right-heading-text">
                   <h2>Sign in to JioPhotos</h2>
                 </div>
@@ -83,32 +86,37 @@ const Login = () => {
                     variant="standard"
                     fullWidth
                     onChange={(e) => {
+                      setFocus(true);
                       setNumber(e.target.value);
                     }}
                     defaultValue={"+91 "}
-                    error={number.length !== 14}
-                    helperText={number.length !== 14 ? "Invalid Number" : ""}
+                    error={number.length !== 14 && focus}
+                    helperText={
+                      (number.length !== 14 ? "Invalid Number" : "") && focus
+                    }
                   />
                 </div>
                 <div className="login-button">
-                  <Button
-                    variant="contained"
-                    size="large"
-                    sx={{
-                      borderRadius: "50px",
-                      height: "56px",
-                      width: "387px",
-                    }}
-                    disabled={number.length !== 14}
-                  >
-                    GET OTP
-                  </Button>
+                  <Link to="/dashboard">
+                    <Button
+                      variant="contained"
+                      size="large"
+                      sx={{
+                        borderRadius: "50px",
+                        height: "56px",
+                        width: "387px",
+                      }}
+                      disabled={number.length !== 14}
+                    >
+                      GET OTP
+                    </Button>
+                  </Link>
                 </div>
                 <div className="privacy">
                   By continuing, you agree to our <Link>Terms of Service</Link>{" "}
-                  and Privacy & Legal Policy
+                  and <Link>Privacy & Legal Policy</Link>
                 </div>
-              </div>
+              </div> */}
             </Paper>
           </Box>
         </div>
